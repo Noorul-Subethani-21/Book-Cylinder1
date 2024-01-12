@@ -1,0 +1,50 @@
+.head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color:rgb(20, 9, 80) ;
+    width: 50vh;
+}
+.head input{
+    padding: 20px;
+    width: 100%;
+    border: 1px solid gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.field{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+.field input{
+    padding: 10px;
+    border: 1px solid gray;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+}
+.form-container {
+    width: 20%;
+    margin: 25px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+    margin-top: 0px;
+  }
+  .form {
+    border: 1px solid #ebe9eb;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 60vh;
+    height: 6vh;
+    margin-left: 25px;
+    display: flex;
+    background: #ebe9eb;
+  }

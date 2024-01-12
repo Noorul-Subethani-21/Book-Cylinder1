@@ -1,0 +1,74 @@
+.app-container {
+    display: flex;
+    
+    align-items: stretch;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sidebar {
+    display: flex;
+    color: gray;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin: 2px;
+    width: 120px;
+    margin-top: 5px;
+    padding: 5px 33px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+    transition: background 0.1s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  
+  .last{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50%;
+    margin-left: 20%;
+  }
+  .last button{
+    padding: 5px;
+    width: 60%;
+    
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      text-align: center;
+  
+      margin: 0px;
+      padding: 0px;
+    }
+    .app-container {
+      margin: 0px;
+      padding: 0px;
+      margin-left: 0px;
+  
+      width: 100%;
+    }
+    .nav {
+      
+      margin: 2px;
+      padding: 0px;
+    }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      font-size: 12px;
+      margin-right: 20px;
+    }
+  
+    
+    input {
+      width: 100%;
+
+    }
+  }
+  
+  .sidebar-name {
+    
+    margin-left: 10px;
+  }
+  
